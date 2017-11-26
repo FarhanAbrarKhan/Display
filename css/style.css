@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    color: #8c8c8c;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section{
+}
+
+header{}
+.nav-bar{
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 1000px;
+    border-bottom: 1px solid #dadada;
+    display: flow-root;
+}
+.header-section{
+    float: left;
+    width: 20%;
+}
+.header-section img{
+    vertical-align: middle;
+}
+.header-section span{
+    vertical-align: middle;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    color: #737373;
+}
+
+.social-media{
+    width: 80%;
+    float: left;
+    padding: 10px 0;
+}
+.cursor{}
+.social-media ul{
+    text-align: right;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.social-media ul li a{
+}
+.social-media ul .cursor > img{
+    position: absolute;top: 15px;
+    right: 4px;
+}
+.social-media ul li a img{}
+.social-media ul li a:hover{}
+
+.menu{
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu nav{}
+.menu nav ul{
+    padding: 20px 20px 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.menu nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 10px 0 0;
+    font-weight: 600;
+}
+.menu nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #737373;
+    display: inline-block;
+}
+.menu nav ul li a:hover{
+    cursor: pointer;
+    color: #2cc26b;
+    transition: 0.4s;
+}
+
+.slider-section{
+    background-image: url(../images/slider_background.png);
+}
+.upper-slider{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.upper-slider img{
+    transform: translateY(65px);
+    display: inline-block;
+}
+
+.portfolio{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contents{
+    margin: 87px auto;
+    width: 600px;
+    text-align: center;
+}
+.contents p{
+    color: #8c8c8c;
+}
+.contents input{
+    padding: 10px;
+    background: #2ecc71;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.contents input:hover{
+    cursor: pointer;
+    background: #2cc26b;
+}
+.background{
+    background: #464c52;
+}
+.ready{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flow-root;
+}
+.ready h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    float: left;
+    padding: 2px 0;
+}
+.ready input{
+    padding: 10px;
+    background: #2ecc71;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    font-weight: 700;
+}
+.ready input:hover{
+    cursor: pointer;
+    background: #2cc26b;
+}
+footer{}
+.ending{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flow-root;
+}
+.copyright{
+    width: 50%;
+    float: left;
+}
+.copyright p{
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+
+.second-menu{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.second-menu nav{}
+.second-menu nav ul{
+}
+.second-menu nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 2px;
+}
+.second-menu nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8c8c8c;
+}
+.second-menu nav ul li a:hover{
+    color: #2cc26b;
+}
